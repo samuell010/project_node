@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Cat Data</title>
+    <link rel="stylesheet" href="/styles/basicStyles.css">
+    <script src="/js/addCat.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Add Cat Data</h1>
+        <div id="fields">
+            <form id="catForm">
+                <p>
+                    <label for="number">Number: </label>
+                    <input type="text" id="number" name="number">
+                </p>
+                <p>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name">
+                </p>
+                <p>
+                    <label for="breed">Breed: </label>
+                    <input type="text" id="breed" name="breed">
+                </p>
+                <p>
+                    <label for="length">Length: </label>
+                    <input type="text" id="length" name="length">
+                </p>
+                <p>
+                    <label for="yearOfBirth">Year of Birth: </label>
+                    <input type="text" id="yearOfBirth" name="yearOfBirth">
+                </p>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div id="resultarea"></div>
+        <a href="/"><button>Menu</button></a>
+    </main>
+</body>
+</html>

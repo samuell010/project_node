@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Cat</title>
+    <link rel="stylesheet" href="/styles/basicStyles.css">
+    <script src="/js/updateCat.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>Update Cat Data</h1>
+        <div id="options">
+            <label>Choose key:</label>
+            <select id="keylist"></select>
+        </div>
+        <label>Value: <input type="text" id="searchvalue"></label>
+        <button id="submit">Search</button>
+        <section id="resultarea"></section>
+        
+        <h2>Update Cat Details</h2>
+        <div id="updateForm">
+            <p>
+                <label for="updateId">ID:</label>
+                <input type="text" id="updateId" readonly>
+            </p>
+            <p>
+                <label for="updateFirstname">First Name:</label>
+                <input type="text" id="updateFirstname">
+            </p>
+            <p>
+                <label for="updateLastname">Last Name:</label>
+                <input type="text" id="updateLastname">
+            </p>
+            <p>
+                <label for="updateDepartment">Department:</label>
+                <input type="text" id="updateDepartment">
+            </p>
+            <p>
+                <label for="updateSalary">Salary:</label>
+                <input type="text" id="updateSalary">
+            </p>
+            <button id="updateSubmit">Update</button>
+        </div>
+        
+        <div id="messagearea"></div>
+        <a href="/"><button>Menu</button></a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Cats</title>
+    <link rel="stylesheet" href="/styles/basicStyles.css">
+    <!-- Add a favicon link if you have one -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Add a CSS file for specific styles related to this page -->
+    <link rel="stylesheet" href="/styles/allCats.css">
+    <!-- Load JavaScript for fetching and displaying all cats -->
+    <script src="/js/getAllCats.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Add a logo or site title -->
+            <h1>Cat Adoption Center</h1>
+            <!-- Navigation links -->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/cats">All Cats</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>All Cats</h2>
+            <div id="messagearea"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Name</th>
+                        <th>Breed</th>
+                        <th>Length</th>
+                        <th>Year of Birth</th>
+                    </tr>
+                </thead>
+                <tbody id="resultset"></tbody>
+            </table>
+        </section>
+        <section>
+            <!-- Additional sections or content can be added here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cat Adoption Center. All rights reserved.</p>
+    </footer>
+</body>
+</html>
